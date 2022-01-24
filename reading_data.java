@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class readingData {
     public static void main(String[] args) {
         // Declara três variáveis inteiras.
