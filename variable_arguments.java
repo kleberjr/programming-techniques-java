@@ -1,7 +1,7 @@
-public class VariableArguments {
+public class variable_arguments {
     // Declarando uma função 'average', que recebe como argumento vários dados do tipo double.
     // O 'double' após 'static' indica que a função retorna um double.
-    // As reticências indicam a criação de um vetor de elementos do tipo double com os argumentos passados.
+    // As reticências indicam a criação de um vetor (array) de elementos do tipo double com os argumentos passados.
     public static double average(double... grades) {
         double sum = 0.0;
 
