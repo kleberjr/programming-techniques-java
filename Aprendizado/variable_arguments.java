@@ -1,4 +1,8 @@
+import aprendizadoclasses.Lampada;
+
 public class variable_arguments {
+	
+	Lampada l1 = new Lampada();
     // Declarando uma função 'average', que recebe como argumento vários dados do tipo double.
     // O 'double' após 'static' indica que a função retorna um double.
     // As reticências indicam a criação de um vetor (array) de elementos do tipo double com os argumentos passados.

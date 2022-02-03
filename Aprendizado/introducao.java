@@ -1,7 +1,7 @@
 public class introducao {
     public static void main(String[] args) {
         // Declara e inicializa uma string
-        String name = "Kleber"
+        String name = "Kleber";
 
         System.out.println("Hello World!");
 

@@ -1,6 +1,6 @@
-public class Duvidas {
+public class duvidas {
     public static float testFunction() {
-        /* Porque o Java nÃ£o enxerga o nÃºmero como um float e sim como um double? */
+        /* Porque o Java não enxerga o número como um float e sim como um double? */
         return 72.7*4;
     }
 

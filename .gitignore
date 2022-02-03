@@ -1,2 +1,5 @@
 .idea
 teste.java
+/bin/
+.classpath
+.project
