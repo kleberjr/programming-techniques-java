@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class controleDePessoas {
+public class ControleDePessoas {
     public static void main(String[] args) {
         char gender;
         int maleCount = 0, femaleCount = 0;

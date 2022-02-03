@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class operacoesDeVenda {
+public class OperacoesDeVenda {
     public static void main(String[] args) {
         int n, currentAmount, wantedAmount, newAmount;
         String product;

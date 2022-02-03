@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class pesoIdeal {
+public class PesoIdeal {
     /* A função recebe como parâmetro a altura e o sexo, e utiliza uma estrutura
     * switch case para calcular o peso ideal de acordo com o sexo. */
 
