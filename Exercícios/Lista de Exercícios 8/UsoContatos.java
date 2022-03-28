@@ -110,30 +110,19 @@ public class UsoContatos {
 				
 				case 6:
 					for (int i = 0; i < l; i++) {
-
 						Contato contato = listaDeContatos.get(i);
-						
-						/* Recupera o método getter do atributo único da subclasse */
-						Method metodo = contato.getClass().getMethods()[1];
-						
-						Object atributo;
-						atributo = metodo.invoke(listaDeContatos.get(i), new Object[0]);
-
-						
-						try {
-							atributo = (int)atributo;
+												
+						/* Casting garantindo que o objeto será do tipo Amigo */
+						if (contato instanceof Amigo && ((Amigo) contato).getGrau() == 1) {
+							contato.imprimirContato();
 							
-							if ((int)atributo == 1) {
-								contato.imprimirContato();
-							}
-						} 
-						
-						catch(ClassCastException e) {
-							if (atributo.equals("irmão")) {							
-								contato.imprimirContato();								
-							} else if (atributo.equals("colega")) {
-								contato.imprimirContato();
-							}
+						/* Casting garantindo que o objeto será do tipo Familia */	
+						} else if (contato instanceof Familia && ((Familia) contato).getParentesco().equals("irmão")) {
+							contato.imprimirContato();
+							
+						/* Casting garantindo que o objeto será do tipo Colega */
+						} else if (contato instanceof ColegaDeTrabalho && ((ColegaDeTrabalho) contato).getTipo().equals("colega")) {
+							contato.imprimirContato();
 						}
 					}
 					
