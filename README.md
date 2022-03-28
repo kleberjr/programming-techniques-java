@@ -1,2 +1,3 @@
-# Programming Techniques in Java
-Some Java code written during my Programming Techniques course.
+# Técnicas de Programação em Java
+
+Códigos em Java escrito durante meu curso de Técnicas de Programação com foco no paradigma de Programação Orientada a Objetos.
