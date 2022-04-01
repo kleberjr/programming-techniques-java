@@ -1,7 +1,6 @@
 import lista8classes.*;
 import java.util.*;
 import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 
 public class UsoContatos {
 	
